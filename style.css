@@ -60,6 +60,11 @@ li{
     justify-content: center;
 }
 
+span{
+    display: flex;
+    margin-left: 18em;
+}
+
 .containerFooter{
     display: flex;
     flex-direction: column;
