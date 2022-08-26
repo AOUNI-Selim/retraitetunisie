@@ -14,7 +14,7 @@ header{
 }
 
 .containerBandeau > img {
-    width: 1249px;
+    width: 100%;
     height: 260px;
 }
 
@@ -22,7 +22,7 @@ nav {
     background: rgba(16, 71, 40, 0.13);
     display: flex;
     justify-content: center;
-    width: 78em;
+    width: 100%;
 }
 
 ul{
