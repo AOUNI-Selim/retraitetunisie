@@ -1,0 +1,72 @@
+/* Page d'acceuil */
+
+
+header{
+    align-items: center;
+    display: flex;
+}
+
+.logoPage > img{
+    height: 56px;
+    padding: 0 61px 10px 0;
+    width: 183px;
+}
+
+.containerBandeau > img {
+    width: 100%;
+    height: 260px;
+}
+
+nav {
+    background: rgba(16, 71, 40, 0.13);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    font-size: x-large;
+    margin: 0 10px 0 5em;
+}
+
+.acceuil{
+    margin-left: 2em;
+}
+
+.containerConcept {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concept {
+    width: 29em;
+    font-size: x-large;
+}
+
+.flyer{
+    display: flex;
+    justify-content: center;
+}
+
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.copyRight{
+    margin-top: 3em;
+}
