@@ -61,7 +61,7 @@ li{
 }
 
 h2{
-    color: #b39a00;
+    color: green;
 }
 
 .containerConcept, .patie1, .patie2, .patie3 ,.patie4 {
@@ -71,9 +71,10 @@ h2{
     align-items: center;
 }
 
-.concept, .patie1>p, .patie2>p, .patie3>p, .patie4>p {
-    width: 29em;
-    font-size: x-large;
+
+.concept , .patie1>p, .patie2>p, .patie3>p, .patie4>p {
+    width: 32em;
+    font-size: large;
 }
 
 
@@ -89,7 +90,11 @@ h2{
     align-items: center;
     margin-top: 3em;
 }
-
+.partener{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .border{
     align-items: center;
     border: solid 2px gold;
