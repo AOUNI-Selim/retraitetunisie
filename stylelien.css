@@ -29,8 +29,9 @@ header{
 nav {
     background: rgba(16, 71, 40, 0.13);
     display: flex;
-    justify-content: center;
-    width: 100%;
+    width: 86%;
+    align-items: center;
+    margin-left: 4em;    
 }
 
 ul{
@@ -65,12 +66,14 @@ li{
 }
 
 h2{
-    margin-left: 23.5em;
     color: #538607;
 }
-
+.containerRandom > h2 {
+    margin-left: 13em;
+    margin-top: 3em;
+}
 .random{
-    padding: 0 26em 0 26em;
+    padding: 0 13em 0 13em;
     font-size: larger;
 }
 
@@ -140,9 +143,9 @@ h4 + p {
 /* Tableau  */
 
 .containerTable{
-    width: 50%;
+    width: 86%;
     display: table-cell;
-    padding: 3em 0 0 11em;
+    padding: 3em 0 0 34em;
 }
 
 .tftable {
@@ -230,5 +233,8 @@ h3{
         font-size: x-large;
         margin: 0 1px 0 5em;
     }
-    
+    nav {
+        width: 92%;
+        margin-left: 3em;
+    }
 }

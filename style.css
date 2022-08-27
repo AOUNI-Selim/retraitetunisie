@@ -28,8 +28,9 @@ header{
 nav {
     background: rgba(16, 71, 40, 0.13);
     display: flex;
-    justify-content: center;
-    width: 100%;
+    width: 86%;
+    align-items: center;
+    margin-left: 4em;    
 }
 
 ul{
