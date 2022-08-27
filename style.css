@@ -8,13 +8,17 @@ header{
 
 .logoPage > img{
     height: 56px;
-    padding: 0 61px 10px 0;
+    padding-right: 61px;
     width: 183px;
 }
 
 .accroche {
     color: #008247;
+    font-size: xx-large;
+    margin-left: 4em;
+    margin-top: 5px;
 }
+
 
 .containerBandeau > img {
     height: 260px;
@@ -24,7 +28,6 @@ header{
 nav {
     background: rgba(16, 71, 40, 0.13);
     display: flex;
-    margin-top: 4em;
     justify-content: center;
     width: 100%;
 }
@@ -91,4 +94,14 @@ span{
 
 .copyRight{
     margin-top: 3em;
+}
+
+@media (max-width: 1024px ) {
+    li {
+        display: inline;
+        font-size: larger;
+        margin: 0 1px 0 5em;
+    }
+  
+    
 }

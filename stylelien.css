@@ -15,11 +15,15 @@ header{
 
 .accroche {
     color: #008247;
+    font-size: xx-large;
+    margin-left: 5em;
+    margin-top: 5px;
 }
 
 .containerBandeau > img {
-    width: 100%;
     height: 260px;
+    width: 100%;
+    margin-top: 1em;
 }
 
 nav {
@@ -41,7 +45,7 @@ a{
 
 li{
     display: inline;
-    font-size: x-large;
+    font-size: larger;
     margin: 0 10px 0 5em;
 }
 
@@ -173,4 +177,14 @@ h3{
 
 .copyRight{
     margin-top: 3em;
+}
+
+
+@media (max-width: 1024px ) {
+    li {
+        display: inline;
+        font-size: x-large;
+        margin: 0 1px 0 5em;
+    }
+    
 }

@@ -1,0 +1,170 @@
+/**    Etablissement     **/
+
+/* topper  */
+
+header{
+    align-items: center;
+    display: flex;
+}
+
+.logoPage > img{
+    height: 56px;
+    padding: 0 61px 10px 0;
+    width: 183px;
+}
+
+.containerBandeau > img {
+    width: 1249px;
+    height: 260px;
+}
+
+nav {
+    background: rgba(16, 71, 40, 0.13);
+    display: flex;
+    justify-content: center;
+    width: 78em;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    font-size: x-large;
+    margin: 0 10px 0 5em;
+}
+
+.acceuil{
+    margin-left: 2em;
+}
+
+
+
+/* Cards */
+
+.containerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#clubKantaoui, #portKantaoui, #elMenzah{
+    margin-bottom: 5em;
+}
+
+img{
+    width: 100%;
+}
+
+.info {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 + p {
+    font-size: x-large;
+}
+
+/* Tableau  */
+
+.containerTable{
+    width: 50%;
+    display: table-cell;
+    padding: 3em 0 0 16em;
+}
+
+.tftable {
+    font-size:12px;
+    color:#333333;
+    width:100%;
+    border-width: 1px;
+    border-color: #729ea5;
+    border-collapse: collapse;
+}
+        
+.tftable th {
+    font-size:12px;
+    background-color:#acc8cc;
+    border-width: 1px;padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    text-align:left;
+}
+.tftable tr {
+    background-color:#d4e3e5;
+}
+
+.tftable td {
+    font-size:12px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+}
+
+.tftable tr:hover {
+    background-color:#ffffff;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+/*  Contact  */
+
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail{
+    font-size: x-large;
+    padding-bottom: 1em;
+}
+
+.tel{
+    font-size: x-large;
+}
+
+/* Footer */
+
+
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.containerFooterSpe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.copyRight{
+    margin-top: 3em;
+}
