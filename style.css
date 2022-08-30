@@ -1,5 +1,8 @@
 /* Page d'acceuil */
-
+@font-face {
+    font-family: 'EdwardianScriptITCFontFamily';
+    src: url('fonts/Edwardian_Script_ITC_Font_Family/Edwardian\ Script\ ITC\ 400.ttf')  format('truetype');
+}
 
 header{
     align-items: center;
@@ -7,18 +10,29 @@ header{
 }
 
 .logoPage > img{
-    height: 56px;
-    padding-right: 61px;
-    width: 183px;
+    height: 88px;
+    width: 262px;
+    position: relative;
+    left: 60em;
+    top: 9em;
 }
 
 .accroche {
-    color: #008247;
-    font-size: xx-large;
-    margin-left: 4em;
-    margin-top: 5px;
+    color: #0a6b36;
+    font-family: 'EdwardianScriptITCFontFamily', sans-serif;
+    font-size: 7em;
+    margin-left: 7px;
+    margin-top: -90px;
 }
 
+.accroche2 {
+    color: #0a6b36;
+    font-family: 'EdwardianScriptITCFontFamily', sans-serif;
+    font-size: 6em;
+    margin-bottom: 0;
+    margin-left: 7px;
+    margin-top: -90px;
+}
 
 .containerBandeau > img {
     height: 260px;
@@ -26,11 +40,14 @@ header{
 }
 
 nav {
-    background: rgba(16, 71, 40, 0.13);
+    background: black;
     display: flex;
-    width: 86%;
     align-items: center;
-    margin-left: 4em;    
+    height: 4em;   
+}
+
+a{
+    color: azure;
 }
 
 ul{
@@ -38,14 +55,32 @@ ul{
     padding-left: 0px;
 }
 
-/* .containertitle {
-    background: rgba(16, 71, 40, 0.31);
-    border: 1px solid #000000;
-    border-radius: 10px;
-    height: 38px;
-    width: 117px;
-} */
 
+.dpContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    left: 24.5em;
+}
+
+li{
+    color: white;
+  }
+  .dpContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dpContent a:hover {background-color: #ddd;}
+
+.dpBtn:hover .dpContent {display: block;}
+  
+.dpBtn:hover a {color: #0a6b36;}
 a{
     text-decoration: none;
 }
@@ -60,21 +95,36 @@ li{
     margin-left: 2em;
 }
 
-h2{
-    color: green;
+h2, .spe{
+    color: #0a6b36;
+    font-family: 'EdwardianScriptITCFontFamily', sans-serif;
+    font-size: 3em;
+    
+    margin: 0;
+}
+
+h3{
+    font-size: 1.1em;
 }
 
 .containerConcept, .patie1, .patie2, .patie3 ,.patie4 {
-    margin-top: 5em;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-size: 1.5em;
 }
 
 
 .concept , .patie1>p, .patie2>p, .patie3>p, .patie4>p {
+    font-size: 1.2em;
+    line-height: 1.5;
     width: 32em;
-    font-size: large;
+    
+}
+
+#spe, .patie1>img, .patie2>img, .patie3>img, .patie4>img {
+    margin: 1em 0 1em 0;
+    
 }
 
 
